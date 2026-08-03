@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="robots" content="noindex, nofollow" />
+<title>Projects — Thijs Meijer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="wrap nav-in">
+    <a class="logo" href="index.html"><span class="dots"><i></i><i></i><i></i></span> Thijs&nbsp;Meijer</a>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+    <label for="nav-toggle" class="nav-burger" aria-label="Menu"><span></span><span></span><span></span></label>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="projects.html" class="active">Projects</a>
+      <a href="activities.html">Activities</a>
+    </div>
+    <a href="index.html#contact" class="nav-cta">Get in touch →</a>
+  </div>
+</nav>
+
+<!-- PAGE HEAD -->
+<section class="page-head">
+  <div class="wrap">
+    <div class="head-grid">
+      <div>
+        <span class="eyebrow"><b></b> Selected Work</span>
+        <h2 class="sec-title">The projects,<br>by name.</h2>
+        <p class="lead" style="max-width:520px;margin-top:18px">A selection of my work, academic and professional. Filter by category to find what you're looking for.</p>
+      </div>
+      <div class="photo-wrap">
+        <div class="deco deco-square" style="width:70px;height:70px;background:var(--coral);top:-24px;left:-24px;animation:float 6s ease-in-out infinite"></div>
+        <div class="deco deco-circle" style="width:64px;height:64px;background:var(--mint);bottom:-24px;right:-22px;animation:float2 8s ease-in-out infinite"></div>
+        <div class="photo-frame"><img src="images/projects.jpg" alt="Thijs building a colourful modular city model" /></div>
+      </div>
+    </div>
+    <div class="filters" id="filters">
+      <button class="chip active" data-cat="all">All <span class="count" id="allcount"></span></button>
+      <button class="chip" data-cat="professional"><span class="dot dot-professional"></span> Professional</button>
+      <button class="chip" data-cat="academic"><span class="dot dot-academic"></span> Academic</button>
+      <button class="chip" data-cat="urban-design"><span class="dot dot-urban-design"></span> Urban Design</button>
+      <button class="chip" data-cat="urban-planning"><span class="dot dot-urban-planning"></span> Urban Planning</button>
+      <button class="chip" data-cat="mobility"><span class="dot dot-mobility"></span> Mobility Planning</button>
+      <button class="chip" data-cat="mapping"><span class="dot dot-mapping"></span> Mapping</button>
+      <button class="chip" data-cat="participatory"><span class="dot dot-participatory"></span> Participatory Design</button>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECT GRID -->
+<section class="sec" style="padding-top:40px">
+  <div class="wrap">
+    <div class="proj-grid" id="grid">
+
+      <a class="pcard" href="project-heerenveen-lelylijn.html" data-cats="professional urban-design urban-planning mobility mapping">
+        <div class="thumb"><img src="images/projects/heerenveen-lelylijn/opgavekaart.jpg" alt="Opgavekaart of Heerenveen" loading="lazy" /></div>
+        <div class="meta">
+          <h3>Gebiedsverdieping Heerenveen Lelylijn</h3>
+          <div class="firm">Studio Bereikbaar</div>
+          <div class="tags"><span class="tag t-professional"><span class="dot"></span>Professional</span><span class="tag t-urban-design"><span class="dot"></span>Urban design</span><span class="tag t-urban-planning"><span class="dot"></span>Planning</span><span class="tag t-mobility"><span class="dot"></span>Mobility</span><span class="tag t-mapping"><span class="dot"></span>Mapping</span></div>
+        </div>
+      </a>
+
+      <a class="pcard" href="project-amsterdam-ov-netwerk.html" data-cats="professional mobility mapping">
+        <div class="thumb"><img src="images/projects/amsterdam-ov-netwerk/hero.jpg" alt="A-, B- and C-network maps of Amsterdam" loading="lazy" /></div>
+        <div class="meta">
+          <h3>Amsterdam Tactisch OV-netwerk</h3>
+          <div class="firm">Studio Bereikbaar</div>
+          <div class="tags"><span class="tag t-professional"><span class="dot"></span>Professional</span><span class="tag t-mobility"><span class="dot"></span>Mobility</span><span class="tag t-mapping"><span class="dot"></span>Mapping</span></div>
+        </div>
+      </a>
+
+      <a class="pcard" href="project-koppelpark-leiden.html" data-cats="professional urban-design">
+        <div class="thumb"><img src="images/projects/koppelpark-leiden/hero.jpg" alt="Koppelpark Leiden concept image" loading="lazy" /></div>
+        <div class="meta">
+          <h3>Inzending Koppelpark Leiden</h3>
+          <div class="firm">Studio Bereikbaar</div>
+          <div class="tags"><span class="tag t-professional"><span class="dot"></span>Professional</span><span class="tag t-urban-design"><span class="dot"></span>Urban design</span></div>
+        </div>
+      </a>
+
+      <a class="pcard" href="project-stationsgebied-westerwolde.html" data-cats="professional urban-design urban-planning mobility">
+        <div class="thumb"><img src="images/projects/stationsgebied-westerwolde/groene-as.jpg" alt="Sketch of the green axis towards the new Ter Apel station" loading="lazy" /></div>
+        <div class="meta">
+          <h3>Stationsgebied Westerwolde</h3>
+          <div class="firm">Studio Bereikbaar</div>
+          <div class="tags"><span class="tag t-professional"><span class="dot"></span>Professional</span><span class="tag t-urban-design"><span class="dot"></span>Urban design</span><span class="tag t-urban-planning"><span class="dot"></span>Planning</span><span class="tag t-mobility"><span class="dot"></span>Mobility</span></div>
+        </div>
+      </a>
+
+      <a class="pcard" href="project-stedendriehoek.html" data-cats="professional urban-planning mapping">
+        <div class="thumb"><img src="images/projects/stedendriehoek/energy-map.jpg" alt="Energy map of the Stedendriehoek region" loading="lazy" /></div>
+        <div class="meta">
+          <h3>Verstedelijkingsstrategie Stedendriehoek</h3>
+          <div class="firm">Studio Bereikbaar</div>
+          <div class="tags"><span class="tag t-professional"><span class="dot"></span>Professional</span><span class="tag t-urban-planning"><span class="dot"></span>Planning</span><span class="tag t-mapping"><span class="dot"></span>Mapping</span></div>
+        </div>
+      </a>
+
+      <a class="pcard" href="project-brainpark-rotterdam.html" data-cats="professional urban-design urban-planning">
+        <div class="thumb"><img src="images/projects/brainpark-rotterdam/axos.jpg" alt="Axonometric overview of Brainpark I ensembles" loading="lazy" /></div>
+        <div class="meta">
+          <h3>Welstandsparagraaf Brainpark Rotterdam</h3>
+          <div class="firm">GROUP A</div>
+          <div class="tags"><span class="tag t-professional"><span class="dot"></span>Professional</span><span class="tag t-urban-design"><span class="dot"></span>Urban design</span><span class="tag t-urban-planning"><span class="dot"></span>Planning</span></div>
+        </div>
+      </a>
+
+      <a class="pcard" href="project-doemaarnmee.html" data-cats="professional urban-planning participatory">
+        <div class="thumb"><img src="images/projects/doemaarnmee/hero.jpg" alt="The three-phase co-creation process for Maarn & Maarsbergen" loading="lazy" /></div>
+        <div class="meta">
+          <h3>DoeMaarnMee</h3>
+          <div class="firm">Urban Sync</div>
+          <div class="tags"><span class="tag t-professional"><span class="dot"></span>Professional</span><span class="tag t-urban-planning"><span class="dot"></span>Planning</span><span class="tag t-participatory"><span class="dot"></span>Participatory</span></div>
+        </div>
+      </a>
+
+      <a class="pcard" href="project-common-ground.html" data-cats="academic urban-design urban-planning mapping participatory">
+        <div class="thumb"><img src="images/projects/common-ground/mall-render.jpg" alt="Render of the urban intervention at the Bellville mall" loading="lazy" /></div>
+        <div class="meta">
+          <h3>Common Ground — Graduation Thesis</h3>
+          <div class="firm">Academy of Architecture Amsterdam</div>
+          <div class="tags"><span class="tag t-academic"><span class="dot"></span>Academic</span><span class="tag t-urban-design"><span class="dot"></span>Urban design</span><span class="tag t-urban-planning"><span class="dot"></span>Planning</span><span class="tag t-mapping"><span class="dot"></span>Mapping</span><span class="tag t-participatory"><span class="dot"></span>Participatory</span></div>
+        </div>
+      </a>
+
+      <a class="pcard" href="project-repurposed-temporalities.html" data-cats="academic urban-design urban-planning mapping">
+        <div class="thumb"><img src="images/projects/repurposed-temporalities/regional-map.jpg" alt="Regional scale map of Saint-Étienne" loading="lazy" /></div>
+        <div class="meta">
+          <h3>Repurposed Temporalities</h3>
+          <div class="firm">Academy of Architecture Amsterdam</div>
+          <div class="tags"><span class="tag t-academic"><span class="dot"></span>Academic</span><span class="tag t-urban-design"><span class="dot"></span>Urban design</span><span class="tag t-urban-planning"><span class="dot"></span>Planning</span><span class="tag t-mapping"><span class="dot"></span>Mapping</span></div>
+        </div>
+      </a>
+
+      <a class="pcard" href="project-tata-steel-reimagined.html" data-cats="academic urban-design">
+        <div class="thumb"><img src="images/projects/tata-steel-reimagined/hand-drawing.jpg" alt="The narrative in one hand drawing" loading="lazy" /></div>
+        <div class="meta">
+          <h3>Tata Steel Reimagined</h3>
+          <div class="firm">Academy of Architecture Amsterdam</div>
+          <div class="tags"><span class="tag t-academic"><span class="dot"></span>Academic</span><span class="tag t-urban-design"><span class="dot"></span>Urban design</span></div>
+        </div>
+      </a>
+
+      <a class="pcard" href="project-urban-plan-buiteneiland.html" data-cats="academic urban-design">
+        <div class="thumb"><img src="images/projects/urban-plan-buiteneiland/urban-plan.jpg" alt="Urban plan of Buiteneiland" loading="lazy" /></div>
+        <div class="meta">
+          <h3>Urban Plan Buiteneiland</h3>
+          <div class="firm">Academy of Architecture Amsterdam</div>
+          <div class="tags"><span class="tag t-academic"><span class="dot"></span>Academic</span><span class="tag t-urban-design"><span class="dot"></span>Urban design</span></div>
+        </div>
+      </a>
+
+    </div>
+    <div class="empty-note" id="empty" style="display:none">No projects in this category yet.</div>
+  </div>
+</section>
+
+<section class="sec" style="padding:0 0 40px">
+  <div class="wrap"><div class="footer-min"><span>© 2026 Thijs Meijer — Urban Designer</span><a href="index.html#contact" style="color:var(--coral-deep)">thmeijer@outlook.com</a></div></div>
+</section>
+
+<script>
+  const chips=[...document.querySelectorAll('.chip')];
+  const cards=[...document.querySelectorAll('.pcard')];
+  const empty=document.getElementById('empty');
+  document.getElementById('allcount').textContent='('+cards.length+')';
+  function filter(cat){
+    let shown=0;
+    cards.forEach(c=>{
+      const ok = cat==='all' || c.dataset.cats.split(' ').includes(cat);
+      c.classList.toggle('hide',!ok);
+      if(ok) shown++;
+    });
+    empty.style.display = shown? 'none':'block';
+  }
+  chips.forEach(ch=>ch.addEventListener('click',()=>{
+    chips.forEach(c=>c.classList.remove('active'));
+    ch.classList.add('active');
+    filter(ch.dataset.cat);
+  }));
+</script>
+
+</body>
+</html>

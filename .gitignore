@@ -1,0 +1,12 @@
+# macOS
+.DS_Store
+
+# Dependencies
+node_modules/
+
+# Deploy artifacts (large zips, not part of the site)
+deploy-*.zip
+
+# Local tooling
+.claude/
+.claude-flow/

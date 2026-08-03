@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="robots" content="noindex, nofollow" />
+<title>Thijs Meijer — Urban Designer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="wrap nav-in">
+    <a class="logo" href="index.html"><span class="dots"><i></i><i></i><i></i></span> Thijs&nbsp;Meijer</a>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+    <label for="nav-toggle" class="nav-burger" aria-label="Menu"><span></span><span></span><span></span></label>
+    <div class="nav-links">
+      <a href="index.html" class="active">Home</a>
+      <a href="projects.html">Projects</a>
+      <a href="activities.html">Activities</a>
+    </div>
+    <a href="#contact" class="nav-cta">Get in touch →</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header class="hero">
+  <div class="shapes">
+    <div class="shape s1"></div>
+    <div class="shape s2"></div>
+    <div class="shape s3"><svg viewBox="0 0 84 74" xmlns="http://www.w3.org/2000/svg"><polygon points="42,5 81,69 3,69" fill="#9bd5ff" stroke="#1c1b22" stroke-width="2" stroke-linejoin="round"/></svg></div>
+    <div class="shape s4"></div>
+  </div>
+  <div class="wrap">
+    <span class="hero-tag"><i></i> Urban Design, Urban Planning &amp; Mapping</span>
+    <h1>I design cities<br>where <span class="play">play</span> leads<br>the research.</h1>
+    <p class="lead">I'm Thijs Meijer, an urban designer working across urbanism, planning and mobility. I treat the city as a place to test ideas, prototyping, mapping and co-designing until space works for the people who use it. Currently looking for my next role in urban planning &amp; design.</p>
+    <div class="hero-actions">
+      <a href="projects.html" class="btn primary">View projects</a>
+      <a href="#timeline" class="btn ghost">See my journey</a>
+    </div>
+  </div>
+</header>
+
+<!-- MANIFESTO -->
+<section id="manifesto" class="sec">
+  <div class="wrap">
+    <span class="eyebrow"><b></b> Manifesto</span>
+    <div class="manifesto-grid">
+      <div>
+        <p class="manifesto-quote">“Play is the highest form of <em>research</em>,” Albert Einstein said — and every project of mine starts as an experiment, made <em>within the limits of the earth.</em></p>
+      </div>
+      <div class="manifesto-body">
+        <p>Design that begins with curiosity rather than certainty. I model, sketch, map and test. Because the most resilient places are the ones that were allowed to be playful first.</p>
+        <p>Constraints are the rules of the game: budgets, climate, mobility and people. Within them I look for the move nobody expected, always staying within what the planet can carry.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TIMELINE -->
+<section id="timeline" class="sec">
+  <div class="wrap">
+    <span class="eyebrow"><b></b> The Journey</span>
+    <h2 class="sec-title">A résumé that reads like<br>a stack of overlapping experiments.</h2>
+    <div class="tl-legend">
+      <span><i class="s"></i> Study</span>
+      <span><i style="background:var(--coral)"></i> Study activities</span>
+      <span><i class="w"></i> Work &amp; roles</span>
+      <span><i style="background:var(--sun)"></i> Chairmanship</span>
+      <span><i style="background:var(--lilac)"></i> Internships</span>
+      <span><i style="background:#dcd7ca"></i> Side jobs</span>
+      <span class="mono" style="color:var(--ink-faint)">bars show duration · hover a card for role, dates &amp; details</span>
+    </div>
+
+    <div class="timeline-wrap">
+      <div class="timeline">
+        <div class="spine"></div>
+        <div class="now-tag">↑ NOW</div>
+        <div class="col-head study">◀ Study</div>
+        <div class="col-head work">Work &amp; roles ▶</div>
+
+        <!-- year ticks (present on top, past at bottom) -->
+        <div class="yr" style="top:84px">2026</div>
+        <div class="yr" style="top:180px">2025</div>
+        <div class="yr" style="top:276px">2024</div>
+        <div class="yr" style="top:372px">2023</div>
+        <div class="yr" style="top:468px">2022</div>
+        <div class="yr" style="top:564px">2021</div>
+        <div class="yr" style="top:660px">2020</div>
+        <div class="yr" style="top:756px">2019</div>
+        <div class="yr" style="top:852px">2018</div>
+        <div class="yr" style="top:948px">2017</div>
+        <div class="yr" style="top:1044px">2016</div>
+        <div class="yr" style="top:1140px">2015</div>
+        <div class="yr" style="top:1236px">2014</div>
+
+        <!-- leader lines: card ↔ bar (drawn first so bars paint on top) -->
+        <svg class="tl-connect" viewBox="0 0 760 1300" preserveAspectRatio="none" aria-hidden="true">
+          <path d="M328 29 H280" stroke="var(--mint-deep)"/>
+          <path d="M328 621 H280" stroke="var(--mint-deep)"/>
+          <path d="M328 1141 H280" stroke="var(--mint-deep)"/>
+          <path d="M306 805 H280" stroke="var(--coral-deep)"/>
+          <path d="M306 853 H280" stroke="var(--coral-deep)"/>
+          <path d="M306 1093 H280" stroke="var(--coral-deep)"/>
+          <path d="M432 29 H492" stroke="var(--sky-deep)"/>
+          <path d="M454 125 H492" stroke="var(--sun-deep)"/>
+          <path d="M476 181 H484 V196 H492" stroke="var(--sun-deep)"/>
+          <path d="M476 261 H492" stroke="var(--sky-deep)"/>
+          <path d="M432 317 H492" stroke="var(--sky-deep)"/>
+          <path d="M432 469 H492" stroke="var(--sky-deep)"/>
+          <path d="M454 573 H492" stroke="#a49c88"/>
+          <path d="M432 613 H484 V629 H492" stroke="var(--sky-deep)"/>
+          <path d="M454 629 H484 V695 H492" stroke="var(--lilac-deep)"/>
+          <path d="M432 733 H492" stroke="var(--lilac-deep)"/>
+          <path d="M432 797 H492" stroke="#a49c88"/>
+          <path d="M432 893 H492" stroke="#a49c88"/>
+        </svg>
+
+        <!-- ===== STUDY (left) — bars near spine, cards fold out on hover ===== -->
+        <div class="bar" style="top:20px;height:536px;left:calc(50% - 52px);background:var(--mint)"></div>
+        <div class="bar" style="top:612px;height:464px;left:calc(50% - 52px);background:var(--mint)"></div>
+        <div class="bar" style="top:1132px;height:40px;left:calc(50% - 52px);background:var(--mint)"></div>
+        <div class="bar" style="top:796px;height:48px;left:calc(50% - 74px);background:var(--coral)"></div>
+        <div class="bar" style="top:844px;height:40px;left:calc(50% - 74px);background:var(--coral)"></div>
+        <div class="bar" style="top:1084px;height:48px;left:calc(50% - 74px);background:var(--coral)"></div>
+
+        <div class="tl-card r" style="top:20px;left:calc(50% - 330px);border-right:6px solid var(--mint)"><span class="nm">Academy of Architecture, Amsterdam</span><span class="pop"><em>Master Urbanism · Pre-master Urbanism &amp; Landscape Architecture</em><span class="ds">Studying urbanism in the Academy's evening master, alongside practice.</span><span class="d">Feb 2021 – Sep 2026</span></span></div>
+        <div class="tl-card r" style="top:612px;left:calc(50% - 330px);border-right:6px solid var(--mint)"><span class="nm">Hanze UAS, Groningen</span><span class="pop"><em>Bachelor Built Environment</em><span class="ds">Graduation research into large-scale participation processes in practice.</span><span class="d">Sep 2015 – Jul 2020</span></span></div>
+        <div class="tl-card r" style="top:796px;left:calc(50% - 330px);border-right:6px solid var(--coral)"><span class="nm">Minor Urban Regeneration</span><span class="pop"><em>Hanze UAS, Groningen</em><span class="d">Feb 2018 – Jul 2018</span></span></div>
+        <div class="tl-card r" style="top:844px;left:calc(50% - 330px);border-right:6px solid var(--coral)"><span class="nm">ITS Surabaya, Indonesia</span><span class="pop"><em>Minor Environmental Engineering</em><span class="ds">A semester at the Sepuluh Nopember Institute of Technology.</span><span class="d">Sep 2017 – Jan 2018</span></span></div>
+        <div class="tl-card r" style="top:1084px;left:calc(50% - 330px);border-right:6px solid var(--coral)"><span class="nm">Minor Applied Psychology</span><span class="pop"><em>Hanze UAS, Groningen</em><span class="ds">Bridged the gap between switching studies.</span><span class="d">Feb 2015 – Jul 2015</span></span></div>
+        <div class="tl-card r" style="top:1132px;left:calc(50% - 330px);border-right:6px solid var(--mint)"><span class="nm">Bachelor Civil Engineering</span><span class="pop"><em>Hanze UAS, Groningen</em><span class="ds">My first year at Hanze — after half a year I switched to Built Environment.</span><span class="d">Sep 2014 – Feb 2015</span></span></div>
+
+        <!-- ===== WORK (right) — bars near spine, cards fold out on hover ===== -->
+        <div class="bar" style="top:172px;height:40px;left:calc(50% + 78px);background:var(--sun)"></div>
+        <div class="bar" style="top:252px;height:32px;left:calc(50% + 78px);background:var(--sky)"></div>
+        <div class="bar" style="top:308px;height:144px;left:calc(50% + 34px);background:var(--sky)"></div>
+        <div class="bar" style="top:460px;height:104px;left:calc(50% + 34px);background:var(--sky)"></div>
+        <div class="bar" style="top:620px;height:56px;left:calc(50% + 56px);background:var(--lilac)"></div>
+        <div class="bar" style="top:724px;height:48px;left:calc(50% + 34px);background:var(--lilac)"></div>
+        <div class="bar" style="top:564px;height:32px;left:calc(50% + 56px);background:#dcd7ca"></div>
+        <div class="bar" style="top:788px;height:64px;left:calc(50% + 34px);background:#dcd7ca"></div>
+        <div class="bar" style="top:884px;height:136px;left:calc(50% + 34px);background:#dcd7ca"></div>
+        <div class="bar" style="top:604px;height:72px;left:calc(50% + 34px);background:var(--sky)"></div>
+        <div class="bar" style="top:116px;height:288px;left:calc(50% + 56px);background:var(--sun)"></div>
+        <div class="bar" style="top:20px;height:240px;left:calc(50% + 34px);background:var(--sky)"></div>
+
+        <div class="tl-card" style="top:20px;left:calc(50% + 112px);border-left:6px solid var(--sky)"><span class="nm">Studio Bereikbaar, Rotterdam</span><span class="pop"><em>Junior Consultant · Urban Designer</em><span class="ds">Advisors, designers and researchers at the crossroads of mobility and spatial planning — urbanisation strategies, mobility visions and the (re)orientation of infrastructure projects.</span><span class="d">Mar 2024 – Sep 2026</span></span></div>
+        <div class="tl-card" style="top:116px;left:calc(50% + 112px);border-left:6px solid var(--sun)"><span class="nm">University of the Arts Amsterdam</span><span class="pop"><em>Chair, University Council</em><span class="ds">Student member of the University Council from Sep 2022, chair since Jan 2023 — representing students and staff across the AHK's academies.</span><span class="d">Sep 2022 – Sep 2025</span></span></div>
+        <div class="tl-card" style="top:182px;left:calc(50% + 112px);border-left:6px solid var(--sun)"><span class="nm">Founder of AHKSI</span><span class="pop"><em>Founder, AHK student association</em><span class="ds">Worked out how a student association for the AHK could be structured and presented the proposal to the Executive Board.</span><span class="d">Sep 2024 – Feb 2025</span></span></div>
+        <div class="tl-card" style="top:252px;left:calc(50% + 112px);border-left:6px solid var(--sky)"><span class="nm">Urban Sync, Leiden</span><span class="pop"><em>Junior concept developer · Participation expert</em><span class="ds">Urban Sync develops urban real-estate concepts that make the city more beautiful, liveable and sustainable.</span><span class="d">Dec 2023 – Apr 2024</span></span></div>
+        <div class="tl-card" style="top:308px;left:calc(50% + 112px);border-left:6px solid var(--sky)"><span class="nm">GROUP A, Rotterdam</span><span class="pop"><em>Junior urban designer · CarbonLab researcher</em><span class="ds">Urban design at GROUP A architecture, plus research in CarbonLab on how to decarbonise city making.</span><span class="d">Mar 2022 – Sep 2023</span></span></div>
+        <div class="tl-card" style="top:460px;left:calc(50% + 112px);border-left:6px solid var(--sky)"><span class="nm">Urban Sync, Leiden</span><span class="pop"><em>Junior concept developer · Participation expert</em><span class="ds">Creating healthy urban living environments together with businesses, governments and inhabitants.</span><span class="d">Jan 2021 – Feb 2022</span></span></div>
+        <div class="tl-card" style="top:548px;left:calc(50% + 112px);border-left:6px solid #dcd7ca"><span class="nm">Christelijk Lyceum Zeist</span><span class="pop"><em>Substitute teacher, junior years</em><span class="ds">Covering lessons when teachers dropped out with corona complaints, so school could keep going.</span><span class="d">Sep 2020 – Dec 2020</span></span></div>
+        <div class="tl-card" style="top:616px;left:calc(50% + 112px);border-left:6px solid var(--sky)"><span class="nm">Nationaal Programma Groningen</span><span class="pop"><em>Executive employee · Participation expert</em><span class="ds">Chaired and facilitated online participation sessions for Toukomst, helping citizens' ideas into the next phase.</span><span class="d">Nov 2019 – Aug 2020</span></span></div>
+        <div class="tl-card" style="top:682px;left:calc(50% + 112px);border-left:6px solid var(--lilac)"><span class="nm">West 8, Rotterdam</span><span class="pop"><em>Graduation thesis · Assistant project manager</em><span class="ds">Weekly in Rotterdam working on the Toukomst project and my thesis on large-scale participation in practice.</span><span class="d">Nov 2019 – Jun 2020</span></span></div>
+        <div class="tl-card" style="top:728px;left:calc(50% + 112px);border-left:6px solid var(--lilac)"><span class="nm">City of Cape Town</span><span class="pop"><em>Intern · Urban Catalytic Investment dept.</em><span class="ds">At the Metropolitan Municipality's Urban Planning Department — research into the TOD node Bellville.</span><span class="d">Nov 2018 – May 2019</span></span></div>
+        <div class="tl-card" style="top:788px;left:calc(50% + 112px);border-left:6px solid #dcd7ca"><span class="nm">Eetcafé het Zwarte Schaap</span><span class="pop"><em>Bar staff</em><span class="ds">Side job in Groningen during my bachelor.</span><span class="d">Jan 2018 – Sep 2018</span></span></div>
+        <div class="tl-card" style="top:884px;left:calc(50% + 112px);border-left:6px solid #dcd7ca"><span class="nm">Beachclub Kaap Hoorn</span><span class="pop"><em>Bar staff</em><span class="ds">Beach club in Haren, side job during my bachelor.</span><span class="d">Apr 2016 – Sep 2017</span></span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="sec">
+  <div class="wrap">
+    <span class="eyebrow"><b></b> Contact</span>
+    <div class="contact-grid">
+      <div>
+        <h2>Hiring for urban<br>design or planning?<br><em>Let's talk.</em></h2>
+        <a class="contact-mail" href="mailto:thmeijer@outlook.com">thmeijer@outlook.com</a>
+      </div>
+      <div class="contact-links">
+        <a href="mailto:thmeijer@outlook.com">Email <span>thmeijer@outlook.com</span></a>
+        <a href="https://www.linkedin.com/in/thijs-meijer-38956a110" target="_blank" rel="noopener">LinkedIn <span>/in/thijs-meijer-38956a110</span></a>
+        <a href="files/CV-Thijs-Meijer-2026-v3.pdf" target="_blank" rel="noopener">Download CV <span>PDF →</span></a>
+      </div>
+    </div>
+    <div class="footer-bar">
+      <span>© 2026 Thijs Meijer — Urban Designer</span>
+      <span>Play is the highest form of research. — Albert Einstein</span>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>

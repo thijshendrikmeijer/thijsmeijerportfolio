@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="robots" content="noindex, nofollow" />
+<title>Projects — Thijs Meijer</title>
+<script>
+  // Each project now has its own page. This file only redirects old ?p= links.
+  const MAP = {
+    'heerenveen-lelylijn':'project-heerenveen-lelylijn.html',
+    'koppelpark-leiden':'project-koppelpark-leiden.html',
+    'stationsgebied-westerwolde':'project-stationsgebied-westerwolde.html',
+    'brainpark-rotterdam':'project-brainpark-rotterdam.html',
+    'common-ground':'project-common-ground.html',
+    'repurposed-temporalities':'project-repurposed-temporalities.html',
+    'tata-steel-themepark':'project-tata-steel-reimagined.html',
+    'tata-steel-reimagined':'project-tata-steel-reimagined.html',
+    'urban-plan-buiteneiland':'project-urban-plan-buiteneiland.html'
+  };
+  const p = new URLSearchParams(location.search).get('p');
+  location.replace(MAP[p] || 'projects.html');
+</script>
+</head>
+<body></body>
+</html>
