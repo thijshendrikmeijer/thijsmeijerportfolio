@@ -88,6 +88,7 @@ h2.sec-title{font-family:'Fraunces',serif;font-weight:600;font-size:clamp(32px,4
 .btn:hover{transform:translate(-2px,-2px);box-shadow:8px 8px 0 var(--ink)}
 .btn.primary{background:var(--lilac)}
 .btn.ghost{background:#fff}
+.btn.grad{background:var(--mint)}
 
 /* ---- HERO ---- */
 .hero{position:relative;padding:78px 0 60px;overflow:hidden}
