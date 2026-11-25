@@ -91,7 +91,7 @@ nav{position:sticky;top:0;z-index:60;background:rgba(251,250,247,.82);backdrop-f
 .sec{padding:84px 0}
 .eyebrow{display:inline-flex;align-items:center;gap:9px;font-family:'Space Mono',monospace;font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:.12em;margin-bottom:20px}
 .eyebrow b{width:30px;height:2px;background:var(--ink);display:block}
-h2.sec-title{font-family:'Fraunces',serif;font-weight:600;font-size:clamp(32px,4.6vw,52px);line-height:1.04;letter-spacing:-.02em;max-width:780px}
+h2.sec-title{font-family:'Space Grotesk',system-ui,sans-serif;font-weight:600;font-size:clamp(32px,4.6vw,52px);line-height:1.04;letter-spacing:-.02em;max-width:780px}
 .lead{font-size:clamp(16px,2.2vw,19px);color:var(--ink-soft)}
 .btn{display:inline-block;border:2px solid var(--ink);border-radius:44px;padding:13px 26px;font-weight:600;font-size:15px;box-shadow:var(--shadow);transition:transform .15s,box-shadow .15s;cursor:pointer}
 .btn:hover{transform:translate(-2px,-2px);box-shadow:8px 8px 0 var(--ink)}
@@ -103,7 +103,7 @@ h2.sec-title{font-family:'Fraunces',serif;font-weight:600;font-size:clamp(32px,4
 .hero{position:relative;padding:78px 0 60px;overflow:hidden}
 .hero-tag{display:inline-flex;align-items:center;gap:9px;border:2px solid var(--ink);border-radius:40px;padding:7px 16px;font-size:13px;font-weight:600;background:#fff;box-shadow:var(--shadow-sm);margin-bottom:26px}
 .hero-tag i{width:9px;height:9px;border-radius:50%;background:var(--mint-deep);display:block}
-.hero h1{font-family:'Fraunces',serif;font-weight:600;font-size:clamp(46px,8vw,104px);line-height:.98;letter-spacing:-.03em}
+.hero h1{font-family:'Space Grotesk',system-ui,sans-serif;font-weight:600;font-size:clamp(46px,8vw,104px);line-height:.98;letter-spacing:-.03em}
 .hero h1 .play{font-style:italic;position:relative;display:inline-block;color:var(--coral-deep);margin-right:.22em;padding-right:.04em}
 .hero h1 .play::after{content:"";position:absolute;left:-2%;bottom:6%;width:100%;height:16%;background:var(--sun);z-index:-1;border-radius:30px;transform:rotate(-1.5deg)}
 .hero p.lead{margin-top:26px;max-width:600px}
@@ -194,7 +194,7 @@ h2.sec-title{font-family:'Fraunces',serif;font-weight:600;font-size:clamp(32px,4
 .pcard .thumb svg{width:100%;height:100%}
 .pcard .thumb .ph{position:absolute;bottom:10px;right:12px;font-family:'Space Mono',monospace;font-size:10px;background:#fff;border:2px solid var(--ink);border-radius:20px;padding:2px 8px}
 .pcard .meta{padding:18px 20px 22px;display:flex;flex-direction:column;gap:10px;flex:1}
-.pcard h3{font-family:'Fraunces',serif;font-weight:600;font-size:21px;letter-spacing:-.01em;line-height:1.1}
+.pcard h3{font-family:'Space Grotesk',system-ui,sans-serif;font-weight:600;font-size:21px;letter-spacing:-.01em;line-height:1.1}
 .pcard .firm{font-family:'Space Mono',monospace;font-size:12px;color:var(--ink-faint)}
 .pcard .tags{display:flex;gap:6px;flex-wrap:wrap;margin-top:auto}
 .tag{font-family:'Space Mono',monospace;font-size:10px;border:1.5px solid var(--ink);border-radius:30px;padding:3px 9px;font-weight:700;text-transform:uppercase;letter-spacing:.03em;display:inline-flex;align-items:center;gap:5px}
@@ -216,7 +216,7 @@ h2.sec-title{font-family:'Fraunces',serif;font-weight:600;font-size:clamp(32px,4
 .proj-hero{padding:54px 0 0}
 .back-link{font-family:'Space Mono',monospace;font-size:13px;font-weight:700;display:inline-flex;gap:7px;margin-bottom:22px}
 .back-link:hover{color:var(--coral-deep)}
-.proj-title{font-family:'Fraunces',serif;font-weight:600;font-size:clamp(34px,5.4vw,64px);line-height:1.02;letter-spacing:-.02em;max-width:900px}
+.proj-title{font-family:'Space Grotesk',system-ui,sans-serif;font-weight:600;font-size:clamp(34px,5.4vw,64px);line-height:1.02;letter-spacing:-.02em;max-width:900px}
 .proj-sub{font-size:18px;color:var(--ink-soft);margin-top:16px;max-width:680px}
 .proj-meta{display:flex;gap:14px;flex-wrap:wrap;margin-top:26px}
 .metabox{border:2px solid var(--ink);border-radius:16px;background:#fff;padding:12px 16px;box-shadow:var(--shadow-sm);min-width:120px}
@@ -226,11 +226,11 @@ h2.sec-title{font-family:'Fraunces',serif;font-weight:600;font-size:clamp(32px,4
 .hero-img svg{width:100%;height:100%}
 .ph-badge{position:absolute;top:14px;left:14px;font-family:'Space Mono',monospace;font-size:11px;background:#fff;border:2px solid var(--ink);border-radius:20px;padding:4px 12px}
 .proj-body{display:grid;grid-template-columns:1.5fr 1fr;gap:48px;margin-top:60px;align-items:start}
-.proj-body h3{font-family:'Fraunces',serif;font-weight:600;font-size:26px;margin:0 0 12px}
+.proj-body h3{font-family:'Space Grotesk',system-ui,sans-serif;font-weight:600;font-size:26px;margin:0 0 12px}
 .proj-body h3+p{margin-bottom:26px}
 .proj-body p{font-size:17px;color:var(--ink-soft);margin-bottom:16px}
 .side-card{border:2px solid var(--ink);border-radius:var(--radius);background:var(--sun);padding:24px;box-shadow:var(--shadow)}
-.side-card h4{font-family:'Fraunces',serif;font-size:20px;margin-bottom:12px}
+.side-card h4{font-family:'Space Grotesk',system-ui,sans-serif;font-size:20px;margin-bottom:12px}
 .side-card ul{list-style:none;display:flex;flex-direction:column;gap:9px}
 .side-card li{font-size:14px;display:flex;gap:8px}
 .side-card li::before{content:"▸";color:var(--coral-deep)}
@@ -244,7 +244,7 @@ h2.sec-title{font-family:'Fraunces',serif;font-weight:600;font-size:clamp(32px,4
 /* minimal frames: thin black line, square corners, no shadow; frame fits the image */
 .proj-hero .hero-img{height:auto;width:fit-content;max-width:100%;margin:34px auto 0;border:2px solid var(--ink);border-radius:0;box-shadow:none;background:#fff}
 .proj-hero .hero-img img{display:block;width:auto;height:auto;max-width:100%;max-height:78vh}
-.figs-title{font-family:'Fraunces',serif;font-weight:600;font-size:26px;margin-top:64px}
+.figs-title{font-family:'Space Grotesk',system-ui,sans-serif;font-weight:600;font-size:26px;margin-top:64px}
 .figs{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:20px}
 .fig{border:2px solid var(--ink);border-radius:0;overflow:hidden;background:#fff;box-shadow:none;display:flex;flex-direction:column}
 .fig.full{grid-column:1/-1}
@@ -260,7 +260,7 @@ h2.sec-title{font-family:'Fraunces',serif;font-weight:600;font-size:clamp(32px,4
 .act:hover{transform:translate(-3px,-3px);box-shadow:9px 9px 0 var(--ink)}
 .act::before{content:"";position:absolute;left:0;top:0;width:100%;height:8px;background:var(--accent,var(--coral))}
 .act .ic{width:48px;height:48px;border-radius:14px;border:2px solid var(--ink);display:flex;align-items:center;justify-content:center;font-size:23px;margin:6px 0 16px;background:var(--accent,var(--coral))}
-.act h4{font-family:'Fraunces',serif;font-weight:600;font-size:20px;margin-bottom:7px}
+.act h4{font-family:'Space Grotesk',system-ui,sans-serif;font-weight:600;font-size:20px;margin-bottom:7px}
 .act p{font-size:14px;color:var(--ink-soft)}
 .act p+p{margin-top:10px}
 .act .act-img{margin:6px 0 16px;border:2px solid var(--ink);border-radius:14px;overflow:hidden;aspect-ratio:3/2;background:var(--bg-2)}
@@ -274,7 +274,7 @@ h2.sec-title{font-family:'Fraunces',serif;font-weight:600;font-size:clamp(32px,4
 #contact{background:var(--ink);color:var(--bg);border-top:2px solid var(--ink)}
 #contact .eyebrow b{background:var(--bg)}
 .contact-grid{display:grid;grid-template-columns:1.3fr 1fr;gap:48px;align-items:end}
-#contact h2{font-family:'Fraunces',serif;font-weight:600;font-size:clamp(34px,5.2vw,64px);line-height:1;letter-spacing:-.02em}
+#contact h2{font-family:'Space Grotesk',system-ui,sans-serif;font-weight:600;font-size:clamp(34px,5.2vw,64px);line-height:1;letter-spacing:-.02em}
 #contact h2 em{color:var(--sun);font-style:italic}
 .contact-mail{display:inline-block;margin-top:24px;font-size:clamp(17px,2.4vw,24px);font-family:'Space Mono',monospace;border-bottom:2px solid var(--sun);padding-bottom:4px}
 .contact-links{display:flex;flex-direction:column;gap:13px}
@@ -284,3 +284,10 @@ h2.sec-title{font-family:'Fraunces',serif;font-weight:600;font-size:clamp(32px,4
 .footer-bar{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:14px;padding:28px 0;border-top:2px solid rgba(251,250,247,.2);margin-top:56px;font-size:13px;font-family:'Space Mono',monospace;opacity:.85}
 .footer-min{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:14px;padding:28px 0;font-size:13px;font-family:'Space Mono',monospace;color:var(--ink-faint);border-top:2px solid var(--ink)}
 @media(max-width:780px){.manifesto-grid,.contact-grid{grid-template-columns:1fr;gap:30px}}
+
+/* project role sections */
+.proj-body .role-lead{margin-bottom:10px}
+.proj-body ul.role-list{margin:0 0 26px 20px;color:var(--ink-soft);font-size:17px;display:flex;flex-direction:column;gap:6px}
+.proj-body .team-line{font-size:15px;margin-bottom:26px}
+.proj-body .team-line + .team-line{margin-top:-18px}
+.proj-body .team-line b{color:var(--ink)}
